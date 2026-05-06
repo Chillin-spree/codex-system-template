@@ -31,12 +31,12 @@
 - Each Codex prompt should target one clear implementation outcome.
 - If a task combines more than 5-7 meaningful implementation requirements, create a Build Pass Plan first.
 - Build prompts must name the current pass and what is not included in this pass.
-- Unknown repos or unclear features should start with investigation-only work.
+- Unknown repos, unclear features, or high-risk work should start with investigation-only work.
 - Full feature details belong in the feature file; Codex build prompts should contain only the current pass.
 - Related small fixes may be bundled into one local release package when safe, local, and easy to review together.
 - If a handoff feels too large for one focused session, stop and propose a smaller Build Pass Plan.
 
-Use `docs/HANDOFFS.md` for the full Build Pass Plan template.
+Use `docs/HANDOFFS.md` for full prompt mechanics, including Build Pass Plans.
 
 ## Risk Levels
 

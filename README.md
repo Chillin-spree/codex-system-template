@@ -22,14 +22,12 @@ Recommended first files to fill in:
 
 ## Workflow
 
-- Plan before non-trivial implementation.
-- Large feature briefs are not build prompts.
-- If a prompt has more than 5-7 meaningful implementation requirements, create a Build Pass Plan first.
-- Split large work into small, reviewable build passes.
-- Each Codex prompt should target one focused implementation outcome.
-- Prefer investigation-only first when the repo structure is unknown.
-- Related small fixes can be bundled into one local release package when they are safe, local, and easy to review together.
-- Review and run relevant checks before committing.
+- Use `AGENTS.md` as the operating contract for ChatGPT, Codex, and contributors.
+- Keep current state in `docs/STATUS.md`; keep durable feature scope in `docs/features/`.
+- Plan non-trivial work before implementation, then build in small reviewable passes.
+- Start with investigation when the repo, feature, or risk is unclear.
+- Use `docs/HANDOFFS.md` for Build Pass Plans and copy-paste prompt templates.
+- Review results and run relevant checks before publishing work.
 - Commit or push only when explicitly asked.
 
 ## Source Of Truth

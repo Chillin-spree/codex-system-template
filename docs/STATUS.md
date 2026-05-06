@@ -4,8 +4,9 @@
 
 <!-- Maintenance rules:
 - Update when the active feature, owner, blocker, or next step changes.
-- Keep this file skimmable; move details into feature files, DECISIONS.md, or BUGS.md.
-- Session Log should keep only the most recent 5-8 entries.
+- Keep this file skimmable and rotating; it is current state, not permanent history.
+- Move durable details into feature files, DECISIONS.md, BUGS.md, or commit history.
+- Recent Activity should keep only the latest 5-8 short entries.
 -->
 
 ## Architecture
@@ -37,6 +38,6 @@
 - **Summary**:
 - **Where full handoff lives**:
 
-## Session Log
+## Recent Activity
 
-<!-- Add future entries most recent first. Keep last 5-8 entries only. -->
+<!-- Add short current-context entries most recent first. Keep only the latest 5-8 entries; this is not a complete project history. -->
