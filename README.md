@@ -44,3 +44,7 @@ Recommended first files to fill in:
 ## Template Rule
 
 Keep this template generic and reusable. Project-specific product language belongs in a copied project instance, not in the base template.
+
+## License
+
+This template is available under the MIT License. See `LICENSE` for details.
